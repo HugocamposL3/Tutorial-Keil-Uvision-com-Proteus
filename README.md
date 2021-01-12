@@ -18,7 +18,7 @@ em **Project -> New Uvison Project** e crie o seu novo projeto e salve onde voc�
 
 <a href="https://imgur.com/lhk6OW6"><img src="https://imgur.com/lhk6OW6.jpg" title="source: imgur.com" /></a>
 
-- 2º Passo: Feito isso vai abrir uma janela para que você qual chip você vai utilizar no seu projeto, nesse caro iremos escolher o  STM32 F103R6, na caixa de pesquisa (Search) você pode escrever ese código (F103R6) que o sotware já vai localizar automaticamente, ou se preferir pode seguir o seguinte caminho ** STMicroeletronics -> STM32F1 Series -> STM32F103 -> STM32F103R6** selecione o chip e clique "Ok"
+- 2º Passo: Feito isso vai abrir uma janela para que você qual chip você vai utilizar no seu projeto, nesse caro iremos escolher o  STM32 F103R6, na caixa de pesquisa (Search) você pode escrever ese código (F103R6) que o sotware já vai localizar automaticamente, ou se preferir pode seguir o seguinte caminho **STMicroeletronics -> STM32F1 Series -> STM32F103 -> STM32F103R6** selecione o chip e clique "Ok"
 
 <a href="https://imgur.com/AMruIOs"><img src="https://imgur.com/AMruIOs.jpg" title="source: imgur.com" /></a>
 

@@ -13,11 +13,11 @@ Nesse projeto será feito o famoso "hello world" ou o famoso "blink", que consis
 
 # Inicilizando o Keil
 
-- **1º Passo:** Após baixar o Keil Uvision eu seu computador, será necessário que faça um novo projeto (New Project) localizado na parte superior do seu compilador, clique em **Project -> New Uvison Project** e crie um novo projeto e salve onde preferir no computador, indico que faça uma "nova pasta" com o nome do projeto e assim salve o projeto nela.
+- **1º Passo:** Após baixar o Keil Uvision eu seu computador, será necessário que faça um novo projeto (New Project) localizado na parte superior do seu compilador, clique em **Project -> New Uvison Project** e crie um novo projeto e salve onde preferir no computador, indico que faça uma "nova pasta" com o nome do projeto e assim salve nela.
 
 <a href="https://imgur.com/lhk6OW6"><img src="https://imgur.com/lhk6OW6.jpg" title="source: imgur.com" /></a>
 
-- **2º Passo:** Feito isso vai abrir uma janela para que você qual chip você vai utilizar no seu projeto, nesse caro iremos escolher o  STM32 F103R6, na caixa de pesquisa (Search) você pode escrever ese código (F103R6) que o sotware já vai localizar automaticamente, ou se preferir pode seguir o seguinte caminho **STMicroeletronics -> STM32F1 Series -> STM32F103 -> STM32F103R6** selecione o chip e clique "Ok"
+- **2º Passo:** Feito isso vai abrir uma janela para que você escolha qual chip você vai utilizar no seu projeto, nesse caso iremos escolher o  STM32 F103R6, na caixa de pesquisa (Search) você pode escrever esse código (F103R6) que o software já vai localizar automaticamente, ou se preferir pode seguir o seguinte caminho **STMicroeletronics -> STM32F1 Series -> STM32F103 -> STM32F103R6** selecione o chip e clique "Ok"
 
 <a href="https://imgur.com/AMruIOs"><img src="https://imgur.com/AMruIOs.jpg" title="source: imgur.com" /></a>
 
@@ -49,6 +49,10 @@ Feita a instalação do pacote do chip, volte ao **1º Passo** e reinicie o proj
 - Segunda Janela: Selecione **CMSIS -> CORE**
 
 <a href="https://imgur.com/pWpFviR"><img src="https://imgur.com/pWpFviR.jpg" title="source: imgur.com" /></a>
+
+**Continua Documentação** 
+**Não finalizada**
+
 
 
 

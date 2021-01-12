@@ -22,6 +22,11 @@ em **Project -> New Uvison Project** e crie o seu novo projeto e salve onde voc�
 
 <a href="https://imgur.com/AMruIOs"><img src="https://imgur.com/AMruIOs.jpg" title="source: imgur.com" /></a>
 
+- Observação: Caso não aparece nenhum chip para escolha logo após a criação do projeto, será necessário instalar o seu pacote no "Pack Instaler" no Keil Uvision, o que é extremamente facil. 
+Feche a janela que abriu para escolha de chip e clique no icone onde a seta está apontando na imagem abaixo:
+
+<a href="https://imgur.com/kcs5Z91"><img src="https://imgur.com/kcs5Z91.jpg" title="source: imgur.com" /></a>
+
 
 
 

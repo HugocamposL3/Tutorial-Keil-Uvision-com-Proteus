@@ -60,6 +60,10 @@ Feita a instalação do pacote do chip, volte ao **1º Passo** e reinicie o proj
 
 Logo Após de escolher os componetes de softwares, clique em Ok.
 
+** 4º Passo: Após o clicar Ok em componetes de softwares, a janela vai fechar e vai de volta para a tela principal do Keil Uvision, algo parecido com a imagem abaixo:
+
+<a href="https://imgur.com/5dNyBLo"><img src="https://imgur.com/5dNyBLo.jpg" title="source: imgur.com" /></a>
+
 
 
 

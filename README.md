@@ -127,6 +127,45 @@ int main()
 	PORTB_GPIO_Configuration();
 ```
 
+- Agora será feita a lógica para que o led pisque de acordo com o delay que foi estipulado, nesse código está 500ms e com isso ele vai fechar o programa principal com a cheva final:
+
+```javascript
+while(1)
+	{
+		GPIO_WriteBit(GPIOB, GPIO_Pin_8,  Bit_SET);
+		Delay(delay_time);
+		GPIO_WriteBit(GPIOB, GPIO_Pin_8,  Bit_RESET);
+		Delay(delay_time);
+	}
+}
+```
+
+- Habilite o PORTB para que o pino 8 seja utilizado como OUTPUT (sáida), seguindo as instruções abaixo:
+
+```javascript
+void PORTB_GPIO_Configuration(void)
+{
+	GPIO_InitTypeDef GPIO_InitStructure;
+	//Allow clock to GPIOB
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
+	
+	//Configure output pins
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;
+	GPIO_Init(GPIOB, &GPIO_InitStructure);
+}
+```
+
+Até esse momento o código está do jeito que a imagem abaixo mostra:
+
+<a href="https://imgur.com/gNQXxTl"><img src="https://imgur.com/gNQXxTl.jpg" title="source: imgur.com" /></a>
+
+
+
+
+
+
 
 
 

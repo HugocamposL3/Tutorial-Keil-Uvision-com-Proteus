@@ -50,8 +50,19 @@ Feita a instalação do pacote do chip, volte ao **1º Passo** e reinicie o proj
 
 <a href="https://imgur.com/pWpFviR"><img src="https://imgur.com/pWpFviR.jpg" title="source: imgur.com" /></a>
 
-**Continua Documentação** 
-**Não finalizada**
+- Terceira Janela: Selecione **Device -> Startup**
+
+<a href="https://imgur.com/TbFLGQX"><img src="https://imgur.com/TbFLGQX.jpg" title="source: imgur.com" /></a>
+
+- Quarta Janela: Ainda com **Device** selecionado clique em **StdPeriph Drivers** e depois escolha **Framework, GPIO & RCC**:
+
+<a href="https://imgur.com/ZFAdTQI"><img src="https://imgur.com/ZFAdTQI.jpg" title="source: imgur.com" /></a>
+
+
+
+
+
+
 
 
 

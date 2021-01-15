@@ -228,6 +228,28 @@ void SetClk(uint32_t PLLMul) {
 }
 ```
 
+- O código estará mais ou menos de acordo com a imagem abaixo:
+
+<a href="https://imgur.com/hVttCkK"><img src="https://imgur.com/hVttCkK.jpg" title="source: imgur.com" /></a>
+
+- E por fim configure a função **delay** escrevendo as instruções a seguir:
+
+```javascript
+void Delay(__IO uint32_t nCount)
+{
+	uint32_t i = 0;
+	for (; nCount != 0; i++)
+	{
+		if (i == 1000)
+		{
+			i = 0;
+			nCount--;
+		}
+	}
+}
+```
+- E com isso o código foi finalizado.
+
 
 
 

@@ -72,6 +72,71 @@ Clique com o botão direito do mouse em cima do icone **Source Group** e selecio
 
 <a href="https://imgur.com/VM4R9OR"><img src="https://imgur.com/VM4R9OR.jpg" title="source: imgur.com" /></a>
 
+Clicando em **"" Add New Item to Group 'Souce Group 1'...""** vai abrir uma outra janela onde você vai selecionar **C File (.c)** e na barra nomeada por **Name:** escreva **main** e clique em **Add**:
+
+<a href="https://imgur.com/90ZpJG4"><img src="https://imgur.com/90ZpJG4.jpg" title="source: imgur.com" /></a>
+
+A janela irá fechar e a parte principal do Keil Uvision onde era cinza vai ficar branca e esperando que incie o código:
+
+<a href="https://imgur.com/RgTVDvG"><img src="https://imgur.com/RgTVDvG.jpg" title="source: imgur.com" /></a>
+
+## Iniciando o Código:
+
+- Para começar o código, inclua 3 blibliotecas:
+
+```javascript
+#include "stm32f10x_rcc.h"
+#include "stm32f10x_gpio.h"
+#include "stm32f10x.h"
+```
+- Uma embaixo da outra conforme a imagem abaixo:
+
+<a href="https://imgur.com/B5oQr0h"><img src="https://imgur.com/B5oQr0h.jpg" title="source: imgur.com" /></a>
+
+- Feito isso, é hora de colocar as prototipações das funções que vão ser usadas no decorrer do código, são elas:
+
+```javascript
+void PORTB_GPIO_Configuration(void);  
+void Delay(__IO uint32_t nCount);			
+void NMI_Handler(void);
+void SetClk(uint32_t PLLMul);
+```
+- Conforme a imagem abaixo:
+
+<a href="https://imgur.com/AD7yJg3"><img src="https://imgur.com/AD7yJg3.jpg" title="source: imgur.com" /></a>
+
+- Escreva a variavel do tipo Clock para o cristal interno e também uma variavel tipo **int** para a função de **delay** inciando ela a 500ms:
+
+```javascript
+RCC_ClocksTypeDef ClksFreq;
+int delay_time = 500;
+```
+- Conforme a imagem abaixo:
+
+<a href="https://imgur.com/lTHFDup"><img src="https://imgur.com/lTHFDup.jpg" title="source: imgur.com" /></a>
+
+- Escreva o programa principal **(int main)** e logo após inicie o **clock** e também o PORT do chip em que utilizará o pino de saida dele, nesse código foi configurado o PORT B, seguindo as instruções abaixo:
+
+```javascript
+int main()
+{
+	//==================System Clock Init==================
+	//Inicia o clock
+	SetClk(2);
+  //======================GPIO Init======================
+	PORTB_GPIO_Configuration();
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -60,9 +60,23 @@ Feita a instalação do pacote do chip, volte ao **1º Passo** e reinicie o proj
 
 Logo Após de escolher os componetes de softwares, clique em Ok.
 
-** 4º Passo: Após o clicar Ok em componetes de softwares, a janela vai fechar e vai de volta para a tela principal do Keil Uvision, algo parecido com a imagem abaixo:
+**4º Passo:** Após o clicar Ok em componetes de softwares, a janela vai fechar e o software voltar para a tela principal do Keil Uvision, algo parecido com a imagem abaixo:
 
 <a href="https://imgur.com/ra1EGpw"><img src="https://imgur.com/ra1EGpw.jpg" title="source: imgur.com" /></a>
+
+Na janela **Projetc** clique no (+) ao lado do icone **Target 1** vai abrir outras ramificações iguais a imagem a abaixo:
+
+<a href="https://imgur.com/PKhx7lu"><img src="https://imgur.com/PKhx7lu.jpg" title="source: imgur.com" /></a>
+
+Clique com o botão direito do mouse em cima do icone **Source Group** e selecione **"" Add New Item to Group 'Souce Group 1'...""** de acordo com a imagem abaixo:
+
+<a href="https://imgur.com/VM4R9OR"><img src="https://imgur.com/VM4R9OR.jpg" title="source: imgur.com" /></a>
+
+
+
+
+
+
 
 
 

@@ -58,6 +58,10 @@ Feita a instalação do pacote do chip, volte ao **1º Passo** e reinicie o proj
 
 <a href="https://imgur.com/ZFAdTQI"><img src="https://imgur.com/ZFAdTQI.jpg" title="source: imgur.com" /></a>
 
+Logo Após de escolher os componetes de softwares, clique em Ok.
+
+
+
 
 
 

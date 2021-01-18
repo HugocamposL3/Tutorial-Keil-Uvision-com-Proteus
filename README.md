@@ -250,6 +250,20 @@ void Delay(__IO uint32_t nCount)
 ```
 - E com isso o código foi finalizado.
 
+## Gerando o Arquivo .HEX 
+
+Para que esse cógido seja simulado no Software Proteus, é necessário gerar o arquivo **.hex** dele, para fazer isso é seguir as seguintes instruções:
+
+- Clique no icone em qual tem uma varinha de condão que é nomeado de **Options for Target**:
+
+<a href="https://imgur.com/WCAMeV4"><img src="https://imgur.com/WCAMeV4.jpg" title="source: imgur.com" /></a>
+
+- Na janela que irá abrir selecione **Output -> "Create HEX file"** e aperte Ok:
+
+<a href="https://imgur.com/WigqAhA"><img src="https://imgur.com/WigqAhA.jpg" title="source: imgur.com" /></a>
+
+
+
 
 
 

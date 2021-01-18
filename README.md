@@ -310,6 +310,3 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 
 
 
-
-
-

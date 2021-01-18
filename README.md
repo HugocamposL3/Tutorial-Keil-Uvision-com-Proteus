@@ -276,7 +276,7 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 
 - Pronto, a parte que era para ser feito no Keil Uvision está pronta, provavelmente o software já criou um arquvio .hex para que ele possa ser simulado no proteus.
 
-## Inicializando o Proteus:
+# Inicializando o Proteus:
 
 - Após baixar o Proteus no computador e abrí-lo vai aparecer uma tela com três icones **"Open Project, New Project & Open Sample"** escolha **New Project**:
 
@@ -285,6 +285,24 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 - Vai abrir uma outra janela para que escolha o nome do projeto e também onde quer salvá-lo, indico que salve na mesma pasta onde está os arquivos salvos do Keil Uvison e clique em Next:
 
 <a href="https://imgur.com/qJQrTng"><img src="https://imgur.com/qJQrTng.jpg" title="source: imgur.com" /></a>
+
+- A próxima janela é para escolher o tamanho da zona de esquemático, indico escolher "Landscape A3" e aperte Next:
+
+<a href="https://imgur.com/vAusinB"><img src="https://imgur.com/vAusinB.jpg" title="source: imgur.com" /></a>
+
+- As próximas janelas que o proteus abrir não é de importância para esse projeto então, pode dá **Next** em todas as janelas e no final clique em **Finish**:
+
+<a href="https://imgur.com/oezLHtj"><img src="https://imgur.com/oezLHtj.jpg" title="source: imgur.com" /></a>
+
+
+
+
+
+
+
+
+
+
 
 
 

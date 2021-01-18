@@ -294,6 +294,64 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 
 <a href="https://imgur.com/oezLHtj"><img src="https://imgur.com/oezLHtj.jpg" title="source: imgur.com" /></a>
 
+## Fazendo o Esquemático:
+
+- Feita todaa configuração inicial do proteus, é hora de selecionar o chip (STM32 F103R6), colocar o led e o resistor, para que o proteus possa simular o software feito no Keil Uvision. Siga as instruções abaixo:
+
+**1º Passo:** Na janela que abrir após ter clicado **Finish** na última janela. Selecione icone de **Component Mode** parece com uma porta lógica NOT:
+
+<a href="https://imgur.com/3qTjYy6"><img src="https://imgur.com/3qTjYy6.jpg" title="source: imgur.com" /></a>
+
+- Após isso, clique na letra **P** que está do lado da letra L na janela **DEVICES** para que consiga colocar todos os componentes que serão utilizados nese projeto:
+
+<a href="https://imgur.com/nYQov1R"><img src="https://imgur.com/nYQov1R.jpg" title="source: imgur.com" /></a>
+
+- Irá abrir uma janela chamada **Pick Devices**. Em **Keywords** pesquise **F103R6** selecione ele e depois clique em Ok:
+
+<a href="https://imgur.com/TXdMcAj"><img src="https://imgur.com/TXdMcAj.jpg" title="source: imgur.com" /></a>
+
+- A janela irá fechar pois o Chip já foi selecionado e já está aba **Devices**:
+
+<a href="https://imgur.com/kLLJ20n"><img src="https://imgur.com/kLLJ20n.jpg" title="source: imgur.com" /></a>
+
+- Faça os mesmo procedimento para escolher o **Led** e também o **Resistor**:
+
+Para selecionar o resistor, na aba keywords escreva **MINRES120R**:
+
+<a href="https://imgur.com/umj0uQu"><img src="https://imgur.com/umj0uQu.jpg" title="source: imgur.com" /></a>
+
+Para selecionar o led, coloque a palavra **LED-RED**:
+
+<a href="https://imgur.com/4DSRLsb"><img src="https://imgur.com/4DSRLsb.jpg" title="source: imgur.com" /></a>
+
+-Pronto os componentes já estão na sua aba **DEVICES**:
+
+<a href="https://imgur.com/SIs2RNi"><img src="https://imgur.com/SIs2RNi.jpg" title="source: imgur.com" /></a>
+
+# Montando o Circuito:
+
+Com todos os componentes na aba Devices, você vai selecionar um componete por vez e vai colocar ele dentro da area de esquemático proteus:
+
+<a href="https://imgur.com/n3RTluA"><img src="https://imgur.com/n3RTluA.jpg" title="source: imgur.com" /></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

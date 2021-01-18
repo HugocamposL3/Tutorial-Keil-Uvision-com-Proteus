@@ -260,7 +260,7 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 
 - Na janela que irá abrir selecione **Output -> "Create HEX file"** e aperte Ok:
 
-<a href="https://imgur.com/WigqAhA"><img src="https://imgur.com/WigqAhA.jpg" title="source: imgur.com" /></a>
+<a href="https://imgur.com/WvRdCEm"><img src="https://imgur.com/WvRdCEm.jpg" title="source: imgur.com" /></a>
 
 
 

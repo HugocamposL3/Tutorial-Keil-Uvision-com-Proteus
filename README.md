@@ -264,7 +264,22 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 
 - Pronto, agora o Keil irá criar um arquivo .hex na hora de compilar o seu código.
 
-##Compilando o Código:
+## Compilando o Código:
+
+- No campo superior do Keil tem um icone com duas setinhas para baixo nomeado por **Rebuild** clique nele e aguarde para que o seu código seja compilado:
+
+<a href="https://imgur.com/LJmNiKw"><img src="https://imgur.com/LJmNiKw.jpg" title="source: imgur.com" /></a>
+
+- Após ele compilar na parte inferior do software (Build Outputs) deverá aparecer sem erros e sem warnings:
+
+<a href="https://imgur.com/npveZOV"><img src="https://imgur.com/npveZOV.jpg" title="source: imgur.com" /></a>
+
+- Pronto a parte que era para ser feito no Keil Uvision está pronta, provavelmente o software já criou um arquvio .hex para que ele possa ser simulado no proteus.
+
+## Inicializando o Proteus:
+
+
+
 
 
 

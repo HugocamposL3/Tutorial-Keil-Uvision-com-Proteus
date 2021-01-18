@@ -348,6 +348,17 @@ Para selecionar o led, coloque a palavra **LED-RED**:
 
 <a href="https://imgur.com/TixZo1z"><img src="https://imgur.com/TixZo1z.jpg" title="source: imgur.com" /></a>
 
+- Uma outra configuração necssária, é da alimentação do chip em que está sedo utilizado, para fazer essa configuração vá até **Design** na parte superior do proteus e depois clique em **Configura Power Rails...**
+
+<a href="https://imgur.com/HkvJorl"><img src="https://imgur.com/HkvJorl.jpg" title="source: imgur.com" /></a>
+
+- Na janela que abrir na parte de **Unconnected power nets:** vão ter duas alimentações **VDDA & VSSA** selecione os dois e depois clique em **Add**:
+
+<a href="https://imgur.com/CieCiFH"><img src="https://imgur.com/CieCiFH.jpg" title="source: imgur.com" /></a>
+
+
+
+
 
 
 

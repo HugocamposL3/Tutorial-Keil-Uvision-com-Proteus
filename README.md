@@ -274,9 +274,24 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 
 <a href="https://imgur.com/npveZOV"><img src="https://imgur.com/npveZOV.jpg" title="source: imgur.com" /></a>
 
-- Pronto a parte que era para ser feito no Keil Uvision está pronta, provavelmente o software já criou um arquvio .hex para que ele possa ser simulado no proteus.
+- Pronto, a parte que era para ser feito no Keil Uvision está pronta, provavelmente o software já criou um arquvio .hex para que ele possa ser simulado no proteus.
 
 ## Inicializando o Proteus:
+
+- Após baixar o Proteus no computador e abrí-lo vai aparecer uma tela com três icones **"Open Project, New Project & Open Sample"** escolha **New Project**:
+
+<a href="https://imgur.com/qzlWRKT"><img src="https://imgur.com/qzlWRKT.jpg" title="source: imgur.com" /></a>
+
+- Vai abrir uma outra janela para que escolha o nome do projeto e também onde quer salvá-lo, indico que salve na mesma pasta onde está os arquivos salvos do Keil Uvison e clique em Next:
+
+<a href="https://imgur.com/qJQrTng"><img src="https://imgur.com/qJQrTng.jpg" title="source: imgur.com" /></a>
+
+
+
+
+
+
+
 
 
 

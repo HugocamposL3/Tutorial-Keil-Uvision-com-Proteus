@@ -340,11 +340,19 @@ Para selecionar o led, coloque a palavra **LED-RED**:
 
 - Para conectar os componentes um com o outro, é preciso clicar na ponta do terminal de um e ligar até a ponta do terminal do outro na qual queira interligar:
 
-**LEMBRE-SE NO CÓDIGO FEITO NO KEIL Uvision FOI ESCOLHIDO O PINO PB8 (PINO 8 DO PORT B) POR ISSO NO GIF ABAIXO ELE JÁ ESTÁ SENDO LIGADO NESE PINO.
+**LEMBRE-SE NO CÓDIGO FEITO NO KEIL Uvision FOI ESCOLHIDO O PINO PB8 (PINO 8 DO PORT B) POR ISSO NO GIF ABAIXO ELE JÁ ESTÁ SENDO LIGADO NESE PINO.**
 
 <a href="https://imgur.com/c7zZTsz"><img src="https://imgur.com/c7zZTsz.jpg" title="source: imgur.com" /></a>
 
 - Feito isso é hora de colocar o terra (Ground) no circuito, no canto esquerdo do proteus vai ter um icone chamado **Terminals Mode** clique nele e depois selecione o **GROUND** e adcione ele no circuito em que está sendo feito:
+
+<a href="https://imgur.com/TixZo1z"><img src="https://imgur.com/TixZo1z.jpg" title="source: imgur.com" /></a>
+
+
+
+
+
+
 
 
 

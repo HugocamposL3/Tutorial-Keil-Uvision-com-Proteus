@@ -262,6 +262,11 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 
 <a href="https://imgur.com/WvRdCEm"><img src="https://imgur.com/WvRdCEm.jpg" title="source: imgur.com" /></a>
 
+- Pronto, agora o Keil irá criar um arquivo .hex na hora de compilar o seu código.
+
+##Compilando o Código:
+
+
 
 
 

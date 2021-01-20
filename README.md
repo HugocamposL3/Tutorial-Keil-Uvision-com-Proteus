@@ -390,9 +390,9 @@ Pronto a simulação foi feita, qualquer duvida que tenha tido no meio desse tut
 
 # Créditos: 
 
-Arnaldo Junior - Auxilio na Formatação no GitHub.
-Hugo Lara Campos - Código Keil Uvision, Simualação no Proteus e Formatação no GitHub.
-Marcelo Costanzo Miranda - Código no Keil Uvision.
+- Arnaldo Junior - Auxilio na Formatação no GitHub.
+- Hugo Lara Campos - Código Keil Uvision, Simualação no Proteus e Formatação no GitHub.
+- Marcelo Costanzo Miranda - Código no Keil Uvision.
 
 
 

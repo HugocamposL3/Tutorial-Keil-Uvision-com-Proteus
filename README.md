@@ -352,9 +352,57 @@ Para selecionar o led, coloque a palavra **LED-RED**:
 
 <a href="https://imgur.com/HkvJorl"><img src="https://imgur.com/HkvJorl.jpg" title="source: imgur.com" /></a>
 
-- Na janela que abrir na parte de **Unconnected power nets:** vão ter duas alimentações **VDDA & VSSA** selecione os dois e depois clique em **Add**:
+- Na janela que abrir na parte de **Unconnected power nets:** vão ter duas alimentações **VDDA & VSSA** selecione os dois e depois clique em **Add** ec lique Ok:
 
 <a href="https://imgur.com/CieCiFH"><img src="https://imgur.com/CieCiFH.jpg" title="source: imgur.com" /></a>
+
+- Agora é hora de configurar a frequência do cristal interno do chip:
+
+Clique com o botão direito em cima do chip e depois escolha **Edit Properties**
+
+<a href="https://imgur.com/Iy63ZHs"><img src="https://imgur.com/Iy63ZHs.jpg" title="source: imgur.com" /></a>
+
+Vai abrir uma janela chamada **Edit Component** na parte nomeada como **Crystal Frequency:** escreva **16MHz**:
+
+<a href="https://imgur.com/uEPyrQU"><img src="https://imgur.com/uEPyrQU.jpg" title="source: imgur.com" /></a>
+
+- Sem fechar essa janela essa janela, já coloque o arquivo .Hex do código feito no Keil Uvision na parte de **Program File** clique na pastinha do lado dessa barra e depois selecione a pasta onde está salva os arquivos do Keil Uvisi, feito isso vá em **Objects** e selecione o seu arquivo .hex e depois pode clicar em ok, pois todas as configurações já foram feitas:
+
+<a href="https://imgur.com/ldOI4OO"><img src="https://imgur.com/ldOI4OO.jpg" title="source: imgur.com" /></a>
+
+# Simulando e Finalizando:
+
+# Simulando:
+
+- Colocando o arquivo .hex e apertando Ok, é hora de verificar o código simulando ele no proteus:
+
+Na parte inferios do proteus vai ter um icone de play e quando é passado o mouse em cima dele aparece **Run the Simulation** clique nele e o proteus vai demorar alguns segundo para carregar:
+
+<a href="https://imgur.com/p711f3M"><img src="https://imgur.com/p711f3M.jpg" title="source: imgur.com" /></a>
+
+- Carregado o código o proteus deverá piscar o led, de acordo que foi configurado no Keil Uvision:
+
+<a href="https://imgur.com/ZDxjQQn"><img src="https://imgur.com/ZDxjQQn.jpg" title="source: imgur.com" /></a>
+
+## Finalizando:
+
+Pronto a simulação foi feita, qualquer duvida que tenha tido no meio desse tutorial entre em contato com o autor por via desse e-mail: camposhugo029@gmail.com e bons projetos para você.
+
+# Créditos: 
+
+Arnaldo Junior - Auxilio na Formatação no GitHub.
+Hugo Lara Campos - Código Keil Uvision, Simualação no Proteus e Formatação no GitHub.
+Marcelo Costanzo Miranda - Código no Keil Uvision.
+
+
+
+
+
+
+
+
+
+
 
 
 

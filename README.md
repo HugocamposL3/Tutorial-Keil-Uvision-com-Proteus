@@ -372,7 +372,7 @@ Vai abrir uma janela chamada **Edit Component** na parte nomeada como **Crystal 
 
 # Simulando e Finalizando:
 
-# Simulando:
+## Simulando:
 
 - Colocando o arquivo .hex e apertando Ok, é hora de verificar o código simulando ele no proteus:
 

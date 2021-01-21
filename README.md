@@ -13,11 +13,11 @@ Nesse projeto será feito o famoso "hello world" ou o famoso "blink", que consis
 
 # Inicilizando o Keil
 
-- **1º Passo:** Após baixar o Keil Uvision eu seu computador, será necessário que faça um novo projeto (New Project) localizado na parte superior do seu compilador, clique em **Project -> New Uvison Project** e crie um novo projeto e salve onde preferir no computador, indico que faça uma "nova pasta" com o nome do projeto e assim salve nela.
+- **1º Passo:** Após baixar o Keil Uvision no computador, será necessário que faça um novo projeto (New Project) localizado na parte superior do compilador, clique em **Project -> New Uvison Project** e crie um novo projeto e salve onde preferir no computador, indico que faça uma "nova pasta" com o nome do projeto e assim salve nela.
 
 <a href="https://imgur.com/lhk6OW6"><img src="https://imgur.com/lhk6OW6.jpg" title="source: imgur.com" /></a>
 
-- **2º Passo:** Feito isso vai abrir uma janela para que você escolha qual chip você vai utilizar no seu projeto, nesse caso iremos escolher o  STM32 F103R6, na caixa de pesquisa (Search) você pode escrever esse código (F103R6) que o software já vai localizar automaticamente, ou se preferir pode seguir o seguinte caminho **STMicroeletronics -> STM32F1 Series -> STM32F103 -> STM32F103R6** selecione o chip e clique "Ok"
+- **2º Passo:** Feito isso vai abrir uma janela para que escolha qual chip irá utilizar no projeto, nesse caso foi escolhido o  STM32 F103R6, na caixa de pesquisa (Search) poderá escrever esse código (F103R6) que o software já vai localizar automaticamente, ou se preferir pode seguir o seguinte caminho **STMicroeletronics -> STM32F1 Series -> STM32F103 -> STM32F103R6** selecione o chip e clique "Ok"
 
 <a href="https://imgur.com/AMruIOs"><img src="https://imgur.com/AMruIOs.jpg" title="source: imgur.com" /></a>
 
@@ -40,7 +40,7 @@ Após a instalação, a janela vai ficar dessa forma:
 
 Feita a instalação do pacote do chip, volte ao **1º Passo** e reinicie o projeto, agora já com o chip instalado. 
 
-- **3º Passo:** Após fazer o 2º passo e escolher o chip, o software vai abrir outra janela chamada **Manage Run-Time Environment** onde escolherá os seus Componentes de Softwares (Softwares Components) nesse projeto será necessário de 5 componentes, siga e selecione os componetes de acordo as imagens abaixo:
+- **3º Passo:** Após fazer o 2º passo e escolher o chip, o software vai abrir outra janela chamada **Manage Run-Time Environment** onde escolherá os seus Componentes de Softwares (Softwares Components) nesse projeto será necessárioo uso de 5 componentes, siga e selecione os componetes de acordo as imagens abaixo:
 
 - Primeira Janela: 
 
@@ -252,9 +252,9 @@ void Delay(__IO uint32_t nCount)
 
 ## Gerando o Arquivo .HEX 
 
-Para que esse cógido seja simulado no Software Proteus, é necessário gerar o arquivo **.hex** dele, para fazer isso é seguir as seguintes instruções:
+Para que esse cógido seja simulado no Software Proteus, é necessário gerar o arquivo **.hex** dele, para fazer isso é so seguir as seguintes instruções:
 
-- Clique no icone em qual tem uma varinha de condão que é nomeado de **Options for Target**:
+- Clique no icone em qual tem uma varinha de condão que é nomeado por **Options for Target**:
 
 <a href="https://imgur.com/WCAMeV4"><img src="https://imgur.com/WCAMeV4.jpg" title="source: imgur.com" /></a>
 
@@ -266,7 +266,7 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 
 ## Compilando o Código:
 
-- No campo superior do Keil tem um icone com duas setinhas para baixo nomeado por **Rebuild** clique nele e aguarde para que o seu código seja compilado:
+- No campo superior do Keil tem um icone com duas setinhas para baixo nomeado por **Rebuild** clique nele e aguarde para que o código seja compilado:
 
 <a href="https://imgur.com/LJmNiKw"><img src="https://imgur.com/LJmNiKw.jpg" title="source: imgur.com" /></a>
 
@@ -274,11 +274,11 @@ Para que esse cógido seja simulado no Software Proteus, é necessário gerar o 
 
 <a href="https://imgur.com/npveZOV"><img src="https://imgur.com/npveZOV.jpg" title="source: imgur.com" /></a>
 
-- Pronto, a parte que era para ser feito no Keil Uvision está pronta, provavelmente o software já criou um arquvio .hex para que ele possa ser simulado no proteus.
+- Pronto, a parte que era para ser feito no Keil Uvision está concluida, provavelmente o software já criou um arquvio .hex para que ele possa ser simulado no proteus.
 
 # Inicializando o Proteus:
 
-- Após baixar o Proteus no computador e abrí-lo vai aparecer uma tela com três icones **"Open Project, New Project & Open Sample"** escolha **New Project**:
+- Após baixar o Proteus no computador e abrí-lo, vai aparecer uma tela com três icones **"Open Project, New Project & Open Sample"** escolha **New Project**:
 
 <a href="https://imgur.com/qzlWRKT"><img src="https://imgur.com/qzlWRKT.jpg" title="source: imgur.com" /></a>
 
